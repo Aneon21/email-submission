@@ -1,6 +1,6 @@
 <?php
 
-//If the server is sending a POST request
+//If the client is sending a POST request
 //That is, when the user send his/her email id
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
